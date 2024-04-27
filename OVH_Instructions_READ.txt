@@ -20,7 +20,7 @@ upload everything into workspace folder
 
 to install run below command
 
-export HF_HOME="/home/debian"
+export HF_HOME="/home/debian/OVH_SUPIR"
 chmod +x OVH_Install_SUPIR.sh
 ./OVH_Install_SUPIR.sh
 
@@ -30,8 +30,8 @@ open a new terminal and run below code to start every time
 
 if you need additional arguments edit the file and run like below
 
-cd /home/debian
-export HF_HOME="/home/debian"
+cd /home/debian/OVH_SUPIR
+export HF_HOME="/home/debian/OVH_SUPIR"
 export PYTHONWARNINGS=ignore
 apt update
 apt install ffmpeg --yes
