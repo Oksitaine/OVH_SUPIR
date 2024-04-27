@@ -64,7 +64,7 @@ if [ "$choice4" == "2" ]; then
     theme="--theme d8ahazard/material_design_rd"
 fi
 
-python gradio_demo.py $lowvram $tiledVAE $theme $cpuMove --open_browser --share True
+python3 gradio_demo.py $lowvram $tiledVAE $theme $cpuMove --open_browser --share True
 
 # Uncomment and modify the following lines as needed
 # python gradio_demo.py $lowvram $tiledVAE $slider $theme --ckpt "R:/SUPIR_v8/SUPIR/models/sd_xl_base_1.0_0.9vae.safetensors"
